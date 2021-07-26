@@ -7,6 +7,13 @@ body {
     background: #f8f8ff;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .slider-box {
     width     : 45%;
     height    : 45%;

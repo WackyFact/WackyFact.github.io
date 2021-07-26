@@ -8,8 +8,7 @@ body {
 }
 
 .header-box {
-    width     : 100%;
-    height    : auto;
+    width     : 80%;
     position  : relative;
     overflow  : hidden;
     margin    : 30px auto;

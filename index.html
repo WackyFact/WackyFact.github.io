@@ -19,29 +19,60 @@
 </head>
 
 <body>
-	
 
-<br>
-<div class="container">
-    <div class="category">
-    	<img src="Images/CHALLENGER.png" alt="image not found"
-   		 width="700" height="700" border="0" class="hover" class="center">
-			<a style="text-decoration: none;" </a>
-	</div>
-	
-	 <div class="category">
-    	<img src="Images/HOLOCAUST.png" alt="image not found"
-   		 width="700" height="700" border="0" class="hover" class="center"> 
-			<a style="text-decoration: none;" </a>
-	</div>
-	
-	<div class="category">
-    	<img src="Images/KOBE.png" alt="image not found"
-   		 width="700" height="700" border="0" class="hover" class="center">
-			<a style="text-decoration: none;" </a>
-	</div>
-</div>
-	
+    <div class="slider-box">
+        <div id="slider">
+            <img src="images/CHALLENGER.png" alt="image not found">
+            <img src="images/HOLOCAUST.png" alt="image not found">
+            <img src="images/KOBE.png" alt="image not found">
+        </div>
+        <div class="indicators">
+            <span id="btn1" class="active"></span>
+            <span id="btn2"></span>
+            <span id="btn3"></span>
+            <span id="btn4"></span>
+        </div>
+    </div>
+
+   
+    <script>
+
+        var slide = document.getElementById("slider");
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+        var btn3 = document.getElementById('btn3');
+        var btn4 = document.getElementById('btn4');
+
+        btn1.onclick = function () {
+            slide.style.transform = "translateX(0px)";
+            btn1.classList.add('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.remive('active');
+        };
+        btn2.onclick = function () {
+            slide.style.transform = "translateX(-100%)";
+            btn1.classList.remove('active');
+            btn2.classList.add('active');
+            btn3.classList.remove('active');
+            btn4.classList.remove('active');
+        };
+        btn3.onclick = function () {
+            slide.style.transform = "translateX(-200%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.add('active');
+            btn4.classList.remove('active');
+        };
+        btn4.onclick = function () {
+            slide.style.transform = "translateX(-300%)";
+            btn1.classList.remove('active');
+            btn2.classList.remove('active');
+            btn3.classList.remove('active');
+            btn4.classList.add('active');
+        };
+
+    </script>
 
 </body>
 </html>

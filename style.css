@@ -8,7 +8,8 @@ body {
 }
 
 .slider-box {
-    width     : 90%;
+    width     : 50%;
+    height    : 50%;
     max-height: 90vh;
     position  : relative;
     overflow  : hidden;

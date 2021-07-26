@@ -10,7 +10,7 @@ body {
 .header-box {
     width     : 45%;
     height    : 45%;
-    max-height: 90vh;
+    max-width: 90vh;
     position  : relative;
     overflow  : hidden;
     margin    : 30px auto;

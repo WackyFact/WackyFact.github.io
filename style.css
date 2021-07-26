@@ -10,6 +10,14 @@ body {
 .slider-box {
     width     : 45%;
     height    : 45%;
+    position  : relative;
+    overflow  : hidden;
+    margin    : 30px auto;
+}
+
+.slider-box {
+    width     : 45%;
+    height    : 45%;
     max-height: 90vh;
     position  : relative;
     overflow  : hidden;

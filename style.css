@@ -8,8 +8,8 @@ body {
 }
 
 .header-box {
-    width     : 45%;
-    height    : 45%;
+    width     : 25%;
+    height    : 25%;
     max-width: 90vh;
     position  : relative;
     overflow  : hidden;

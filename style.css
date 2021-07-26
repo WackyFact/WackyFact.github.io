@@ -7,15 +7,6 @@ body {
     background: #f8f8ff;
 }
 
-.header-box {
-    width     : 25%;
-    height    : 25%;
-    max-width: 90vh;
-    position  : relative;
-    overflow  : hidden;
-    margin    : 30px auto;
-}
-
 .slider-box {
     width     : 45%;
     height    : 45%;

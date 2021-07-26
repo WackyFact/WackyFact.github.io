@@ -54,3 +54,13 @@ body {
 .active {
     background: #f8f8ff !important;
 }
+
+.hover:hover {
+transition: .5s ease;
+opacity: 0.4;
+}
+
+.hover2:hover {
+transition: .3s ease;
+opacity: 0.4;
+}

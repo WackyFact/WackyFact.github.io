@@ -53,11 +53,6 @@ margin-right: auto;
 }
 
 .hover:hover {
-transition: .5s ease;
-opacity: 0.4;
-}
-
-.hover2:hover {
 transition: .3s ease;
 opacity: 0.4;
 }

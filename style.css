@@ -13,6 +13,15 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.slider-box {
+    width     : 45%;
+    height    : 45%;
+    max-height: 90vh;
+    position  : relative;
+    overflow  : hidden;
+    margin    : 30px auto;
+}
+
 .carousel {
   position: relative;
   height: 600px;

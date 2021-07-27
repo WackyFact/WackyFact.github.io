@@ -7,6 +7,10 @@ body {
     background: #0181e6;
 }
 
+img {
+  max-width: 100%;
+}
+
 .center {
 display: block;
 margin-left: auto;

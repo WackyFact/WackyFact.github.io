@@ -11,6 +11,9 @@ body {
   position: absolute;
   right: 2px;
   bottom: 0px;
+   max-width: 100%;
+  height: auto;
+
 }
 
 

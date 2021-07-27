@@ -21,6 +21,7 @@ margin-right: auto;
     width     : 45%;
     height    : 45%;
     max-height: 90vh;
+    min-width: 500px;
     position  : relative;
     overflow  : hidden;
     margin    : 30px auto;

@@ -22,13 +22,6 @@ margin-right: auto;
     margin    : 30px auto;
 }
 
-.carousel {
-  position: relative;
-  height: 600px;
-  width: 80%;
-  margin: 0 auto;
-}
-
 .carousel__track-container {
   position: relative;
   background: #592;

@@ -19,59 +19,32 @@
 </head>
 
 <body>
-    <div class="slider-box">
-        <div id="slider">
-		<div class="mySlides">
-            		<img src="images/CHALLENGER.png" alt="image not found">
-		</div>
-		<div class="mySlides">
-            		<img src="images/HOLOCAUST.png" alt="image not found">
-		</div>
-		<div class="mySlides">
-            <img src="images/KOBE.png" alt="image not found">
-		</div>
-        </div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	    
-	    <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot" ></span> 
-  <span class="dot"></span> 
+<div class="carousel">
+  <button class="carousel__button carousel__button--left hidden">
+    <i class="fas fa-angle-left"></i>
+  </button>
+  <div class="carousel__track-container">
+    <ul class="carousel__track">
+      <li class="carousel__slide current-slide">
+        <img src="images/CHALLENGER.png" alt="image not found" class="carousel__image">
+      </li>
+      <li class="carousel__slide">
+        <img src="images/HOLOCAUST.png" alt="image not found" class="carousel__image">
+      </li>
+      <li class="carousel__slide">
+        <img src="images/KOBE.png" alt="image not found" class="carousel__image">
+      </li>
+    </ul>
+  </div>
+  <button class="carousel__button carousel__button--right">
+    <i class="fas fa-angle-right"></i>
+  </button>
+  <div class="carousel__nav">
+    <button class="carousel__indicator current-slide"></button>
+    <button class="carousel__indicator"></button>
+    <button class="carousel__indicator"></button>
+  </div>
 </div>
-    </div>
-
-
-
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
 
 </body>
 </html>

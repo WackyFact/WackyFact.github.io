@@ -26,6 +26,19 @@ margin-right: auto;
 transition: .3s ease;
 opacity: 0.4;
 }
+.carousel {
+  position: relative;
+  height: 600px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.carousel__track-container {
+  position: relative;
+  background: #592;
+  height: 100%;
+  overflow: hidden;
+}
 
 .carousel__track {
   position: relative;

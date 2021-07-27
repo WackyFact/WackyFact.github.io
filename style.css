@@ -7,8 +7,6 @@ body {
     background: #f8f8ff;
 }
 
-.mySlides {display: none}
-
 .center {
 display: block;
 margin-left: auto;
@@ -32,6 +30,31 @@ margin-right: auto;
 
 #slider img {
     width: 100%;
+}
+
+.indicators {
+    position : absolute;
+    left     : 50%;
+    bottom   : 20px;
+    transform: translateX(-50%);
+}
+
+.indicators span {
+    display      : inline-block;
+    width        : 15px;
+    height       : 15px;
+    border-radius: 50%;
+    background   : rgba(255, 255, 255, 0.5);
+    cursor       : pointer;
+}
+
+.active {
+    background: #f8f8ff !important;
+}
+
+.hover:hover {
+transition: .3s ease;
+opacity: 0.4;
 }
 
 /* Next & previous buttons */
@@ -59,30 +82,4 @@ margin-right: auto;
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
-}
-
-
-.indicators {
-    position : absolute;
-    left     : 50%;
-    bottom   : 20px;
-    transform: translateX(-50%);
-}
-
-.indicators span {
-    display      : inline-block;
-    width        : 15px;
-    height       : 15px;
-    border-radius: 50%;
-    background   : rgba(255, 255, 255, 0.5);
-    cursor       : pointer;
-}
-
-.active {
-    background: #f8f8ff !important;
-}
-
-.hover:hover {
-transition: .3s ease;
-opacity: 0.4;
 }

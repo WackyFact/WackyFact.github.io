@@ -7,6 +7,12 @@ body {
     background: #0181e6;
 }
 
+.bottom-img{
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
 img {
   max-width: 100%;
 }

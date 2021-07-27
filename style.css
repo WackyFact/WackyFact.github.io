@@ -34,7 +34,7 @@ opacity: 0.4;
 /* Parent wrapper to carousel. Width can be changed as needed. */
 .carousel-wrapper {
   overflow: hidden;
-  width: 45%;
+  width: 10%;
   margin: auto;
 }
 

@@ -7,6 +7,8 @@ body {
     background: #f8f8ff;
 }
 
+.mySlides {display: none}
+
 .center {
 display: block;
 margin-left: auto;

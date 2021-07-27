@@ -22,12 +22,6 @@ margin-right: auto;
     margin    : 30px auto;
 }
 
-.carousel__track-container {
-  position: relative;
-  background: #592;
-  height: 100%;
-  overflow: hidden;
-}
 
 .carousel__track {
   position: relative;
